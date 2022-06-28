@@ -30,6 +30,7 @@ body{
     object-fit: cover;
     flex-shrink: 0;
     box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.75);
+    border-radius: 8px;
 }
 
 .hero-text h1{
@@ -89,6 +90,8 @@ button{
 .info-container{
     display: flex;
     justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .info-box-item{
@@ -117,6 +120,8 @@ button{
     font-weight: 200;
     font-style: italic;
     color: #1F2937;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .quote-container strong{

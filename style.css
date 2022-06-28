@@ -43,6 +43,7 @@ body{
 
 .hero-text h2{
     font-size: 18px;
+    font-weight: 500;
     color: #E5E7EB;
 }
 
@@ -53,7 +54,7 @@ body{
     color: #444;
 }
 
-header{
+header, footer{
     background: #1F2937;
 }
 
@@ -69,7 +70,8 @@ ul li{
 a{
     color: white;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
     font-weight: normal;
 }
 
@@ -112,7 +114,7 @@ button{
 
 .quote{
     background: #E5E7EB;
-    padding: 150px 0;
+    padding: 120px 0;
 }
 
 .quote-container{
@@ -129,4 +131,36 @@ button{
     text-align: right;
     padding-right: 60px;
     font-size: 26px;
+}
+
+.cta{
+    padding: 90px 0;
+}
+
+.cta-container{
+    background: #3882F6;
+    border-radius: 8px;
+    padding: 50px 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #E5E7EB;
+}
+
+.cta-container button{
+    border: 2px solid white;
+}
+
+.cta-container h2{
+    margin: 0 0 4px;
+    color: white;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+    padding: 34px 0;
 }

@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
 }
 
 .wrap{
@@ -45,6 +45,13 @@ body{
     color: #E5E7EB;
 }
 
+.mid-info h2{
+    font-size: 36px;
+    font-weight: 900;
+    margin: 60px 0;
+    color: #444;
+}
+
 header{
     background: #1F2937;
 }
@@ -72,4 +79,30 @@ button{
     border-radius: 8px;
     color: white;
     font-size: 18px;
+}
+
+.mid-info{
+    text-align: center;
+}
+
+.info-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-box-item{
+    text-align: center;
+    width: 180px;
+    height: 180px;
+    font-size: 18px;
+    color: #888;
+}
+
+.info-box-item img{
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 10px;
+    width: 180px;
+    height: 180px;
+    border-radius: 16px;
 }
